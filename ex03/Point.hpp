@@ -12,6 +12,7 @@ public:
 	Point();
 	Point(const float xValue, const float yValue);
 	Point(const Point &other);
+
 	Point &operator=(const Point &other);
 
 	~Point();

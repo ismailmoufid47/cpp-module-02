@@ -22,7 +22,7 @@ Fixed::Fixed(const float floatValue)
 	_value = roundf(floatValue * (1 << _fractionalBits));
 }
 
-Fixed& Fixed::operator=(const Fixed &other)
+Fixed &Fixed::operator=(const Fixed &other)
 {
 	std::cout << "Copy assignment operator called" << std::endl;
 	if (this != &other)
